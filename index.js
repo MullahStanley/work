@@ -1,6 +1,6 @@
 //tickets expression
 const tickets= `${film.capacity}` -`${film.tickets_sold}`;
-
+document.addEventListener("DOMContentLoaded",showFilm(film))
 //first function
 function showFilm(film) {
   let card = document.createElement("div");
